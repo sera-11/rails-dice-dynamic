@@ -1,4 +1,6 @@
 # app/controllers/dice_controller.rb
+
+#create your own controller 
 class DiceController < ApplicationController
 
   def homepage
