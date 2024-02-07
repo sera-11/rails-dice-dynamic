@@ -5,4 +5,12 @@ class DiceController < ApplicationController
     render({:template => "dice_templates/homepage"})
   end
 
+  def play
+
+    
+
+    render({ :template => "dice_templates/play_dice" })
+  
+  end
+
 end
